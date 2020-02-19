@@ -4,36 +4,31 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Test.Services;
+using Test.Services.Models;
 
 namespace Test.Api.Controllers
 {
+    [RoutePrefix("orders")]
     public class OrderController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        private readonly IOrderService _orderService;
+
+        public OrderController(IOrderService orderService)
         {
-            return new string[] { "value1", "value2" };
+            _orderService = orderService;
         }
 
-        // GET api/values/5
-        public string Get(int id)
+        [Route("getbyid/{id}")]
+        public OrderModel Get(int id)
         {
-            return "value";
+            return _orderService.GetById(id);
         }
 
-        // POST api/values
-        public void Post([FromBody]string value)
+        [Route("getgroupbyaddress")]
+        public IEnumerable<OrderGrouppedByAddressModel> GetGroupByAddress()
         {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
+            return _orderService.GetOrderGrouppedByAddress();
         }
     }
 }

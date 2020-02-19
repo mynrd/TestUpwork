@@ -57,6 +57,7 @@
     <Compile Include="Entities\TestOrderProduct.cs" />
     <Compile Include="Entities\TestProduct.cs" />
     <Compile Include="Entities\TestProductCategory.cs" />
+    <Compile Include="Mappings\TestProductCategoryConfiguration.cs" />
     <Compile Include="TestContext.cs" />
     <Compile Include="Mappings\TestCategoryConfiguration.cs" />
     <Compile Include="Mappings\TestOrderConfiguration.cs" />

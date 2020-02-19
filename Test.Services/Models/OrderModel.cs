@@ -8,15 +8,18 @@ namespace Test.Services.Models
 {
     public class OrderModel
     {
-        public int OrderId { get;  set; }
+        public OrderModel()
+        {
+            this.Products = new List<OrderProduct>();
+        }
+
+        public int OrderId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
-    }
-
-    public class OrderProduct { 
+        public IEnumerable<OrderProduct> Products { get; set; }
     }
 }

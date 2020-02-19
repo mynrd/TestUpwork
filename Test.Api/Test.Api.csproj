@@ -276,6 +276,10 @@
       <Project>{F9263E32-233C-49DB-A482-DFC91C229EB7}</Project>
       <Name>Test.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Test.Services\Test.Services.csproj">
+      <Project>{ba532f61-40b9-43b6-9f0a-843896830ef4}</Project>
+      <Name>Test.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

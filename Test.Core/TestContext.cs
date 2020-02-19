@@ -31,6 +31,7 @@ namespace EPA.Core.Entities
             modelBuilder.Configurations.Add(new TestOrderConfiguration());
             modelBuilder.Configurations.Add(new TestOrderProductConfiguration());
             modelBuilder.Configurations.Add(new TestProductConfiguration());
+            modelBuilder.Configurations.Add(new TestProductCategoryConfiguration());
         }
     }
 }

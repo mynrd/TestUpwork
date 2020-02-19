@@ -10,5 +10,9 @@ namespace Test.Api.Controllers
 {
     public class ValuesController : ApiController
     {
+        public string Get(int id)
+        {
+            return "test";
+        }
     }
 }
