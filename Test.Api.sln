@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Api", "Test.Api\Test.Api.csproj", "{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{87CB7BE2-7203-421A-A4F4-991343C5CC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Core", "Test.Core\Test.Core.csproj", "{F9263E32-233C-49DB-A482-DFC91C229EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Services", "Test.Services\Test.Services.csproj", "{BA532F61-40B9-43B6-9F0A-843896830EF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AcerHouseDev|Any CPU = AcerHouseDev|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.AcerHouseDev|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.AcerHouseDev|Any CPU.Build.0 = Release|Any CPU
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFC9D9D-A2E9-425D-BF85-FD238486CDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.AcerHouseDev|Any CPU.ActiveCfg = AcerHouseDev|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.AcerHouseDev|Any CPU.Build.0 = AcerHouseDev|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CB7BE2-7203-421A-A4F4-991343C5CC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.AcerHouseDev|Any CPU.ActiveCfg = Release|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.AcerHouseDev|Any CPU.Build.0 = Release|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9263E32-233C-49DB-A482-DFC91C229EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.AcerHouseDev|Any CPU.ActiveCfg = Release|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.AcerHouseDev|Any CPU.Build.0 = Release|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA532F61-40B9-43B6-9F0A-843896830EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B9E3D13-6837-4992-9214-7C70BF0E22E5}
+	EndGlobalSection
+EndGlobal
